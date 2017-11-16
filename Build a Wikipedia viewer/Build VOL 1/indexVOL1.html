@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="style/style1.css">
+	<link rel="stylesheet" type="text/css" href="style/style2.css">
+	<title>Build a Wikipedia viewer</title>
+</head>
+<body>
+	<img src="images/galaxy.jpg" class="bodyImg" alt="">
+	<main>
+		<img src="images/blackHole.png" class="mainImg" alt="">
+
+	<a class="Randomtext" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a>
+<form>
+            <div class="search-wrapper">
+                <div class="input-holder">
+                    <input type="text" class="search-input" placeholder="Type to search" />
+                    <button class="search-icon" onclick="searchToggle(this, event);"><span></span></button>
+                </div>
+                <span class="close" onclick="searchToggle(this, event);"></span>
+                <div class="result-container">
+
+                </div>
+            </div>
+        </form>
+ <a id="help">Click icon to search</a>
+   </main>
+
+
+	<script type="text/javascript" src="main/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="main/mainVOL1.js"></script>
+
+
+
+
+	
+</body>
+
+</html>

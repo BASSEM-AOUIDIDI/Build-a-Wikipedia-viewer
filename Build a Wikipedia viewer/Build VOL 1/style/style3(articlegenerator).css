@@ -1,0 +1,43 @@
+body {
+  font-family: calibri;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn {
+  font-size: 18px;
+}
+
+form {
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.form-control {
+  height: 40px;
+}
+
+input[type="submit"] {
+  width: 100%;
+}
+
+input[type=search] {
+  text-align: center;
+  font-size: 18px;
+}
+
+.effect {
+  border: 3px solid white;
+  background-color: white;
+  box-shadow:0 1px 2px #aaa;
+  font-size: 16px;
+  padding: 10px;
+}
+
+#result {
+  padding: 40px;
+}

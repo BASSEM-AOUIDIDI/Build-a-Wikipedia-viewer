@@ -1,0 +1,68 @@
+body {
+  font-family: calibri;
+  background-color: #f2f2f2;
+ /* background-image: url("hd.jpg");*/
+}
+.bodyIMG{
+display: block;
+position: absolute;
+width: 314px;
+margin-top: -16px;
+margin-left: -4px;
+
+
+}
+.mainIMG{
+display: block;
+position: absolute;
+width: 100%;
+height: 100%;
+
+
+}
+h1 {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  position: relative;
+}
+
+.btn {
+  font-size: 18px;
+  position: absolute;
+}
+
+form {
+  padding: 40px;
+  margin-top: 40px;
+}
+
+.form-control {
+  height: 40px;
+  position: absolute;
+}
+
+input[type="submit"] {
+  /*width: 100%;*/
+}
+
+input[type=search] {
+  text-align: center;
+  font-size: 18px;
+  position: relative;
+}
+
+.effect {
+  border: 3px solid white;
+  background-color: white;
+  box-shadow:0 1px 2px #aaa;
+  font-size: 16px;
+  padding: 10px;
+  position: relative;
+}
+
+#result {
+  padding: 40px;
+  margin-left:329PX;
+   margin-top:-117PX;
+}
